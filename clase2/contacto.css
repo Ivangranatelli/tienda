@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+    background-color: rgb(0, 0, 0);
+    padding: 2rem;
+font-size: 1.2rem;
+text-align: justify;
+float:initial
+
+}
+.header{
+    border: blanchedalmond;
+    background-image: url(./imagenes/imagenbuzo.jpg);
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background: radial-gradient(circle, #000000 0%, #44464a 100%);
+}
+.header__titulo{
+    text-align: center;
+    padding: 2rem;
+    font-size: 5rem;
+    color: blanchedalmond;
+}
+.header__nav--principal{
+    padding: 4.5rem;
+}
+.header__nav a{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 1.3rem;
+    padding: 3rem;
+}
+.header__nav li{
+    display: inline-block;
+}
+.footer{
+    background-color: blanchedalmond;
+text-align: center;
+}
+.formulario{
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    width: 300px;
+    padding: 10px;
+    color: #999;
+    border-radius: 4px;
+    font-size: 15px;
+
+}
+.relleno{
+    padding: 8px;
+    width: 270px;
+    border: solid 0.5px;
+}
+.botones{
+    width: 270px;
+    box-sizing: border-box;
+    border: 2px solid #999;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    padding: 0.1rem; 
+    margin: 0.5rem;
+}
+.botones:hover, .botones:focus{
+    transform: scale(1.1);
+}
+h2{
+    color: blanchedalmond;
+    margin: o auto;
+    padding: 20px;
+
+}
+.footer a{
+    color: black;
+   font-size: 1rem;
+   clear: both;
+}
+.header__nav li:hover{
+    transform: scale(1.1);
+}

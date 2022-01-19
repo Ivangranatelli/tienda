@@ -1,0 +1,185 @@
+
+h2{
+    color: blanchedalmond;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+    background-color: rgb(68, 62, 62);
+    background: radial-gradient(circle, #000000 0%, #44464a 100%);
+}
+
+.header{
+    border: blanchedalmond;
+    background-image: url(./imagenes/imagenbuzo.jpg);
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+
+.header__nav{
+    text-align: center;
+}
+
+.header__nav li{
+    display: inline-block;
+}
+
+.footer{
+    text-align: center;
+    padding: 1rem;
+}
+
+.footer a{
+    color: blanchedalmond;
+    font-size: 1rem;
+    clear: both;
+}
+
+img{
+    display: flex;
+    width: 350px;
+    height: auto;
+}
+
+header {
+    grid-area: header;
+ }
+
+footer {
+    grid-area: footer;
+ }
+
+ section#servicios {
+    grid-area: servicios;
+ }
+ 
+ section#productos {
+    grid-area: productos;
+ }
+
+#miembro1, #miembro2, #miembro3, #miembro4, #miembro5 {
+    justify-self: center;
+    align-self: stretch;
+}
+
+.contenido__intro{
+    color: antiquewhite;
+    font-size: 1.1rem;
+    padding: 2rem;
+}
+
+.imagenes{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header__nav li:hover{
+    transform: scale(1.1);
+}
+
+
+/*Responsive Mobile*/
+
+
+@media screen and (min-width: 0px) and (max-width: 869px){
+    .header__nav a{
+        text-decoration: none;
+        color: blanchedalmond;
+        font-size: 1rem;
+        padding: 0.5rem;
+        margin: 0;
+    }
+    
+    .header__titulo{
+        padding: 1rem;
+        text-align: center;
+        font-size: 1.3rem;
+        color: blanchedalmond;
+    }
+    
+    .titulo__equipo{
+        color: blanchedalmond;
+        font-size: 1.5rem;
+        display: block;
+        text-align: center;
+        padding-top: 1em;
+    }
+
+    .titulo__posicion{
+        color: blanchedalmond;
+        font-size: 1.3rem;
+        display: block;
+        text-align: center;
+        padding: 1em;
+    }
+
+    #grilla {
+        display: grid;
+        grid-template-areas:
+        "header"
+        "servicios"
+        "miembro1"
+        "miembro2"
+        "miembro3"
+        "miembro4"
+        "miembro5"
+        "footer";
+        grid-template-rows: 150px auto auto auto auto auto auto 70px;
+        grid-template-columns: 100%;
+    }
+ }
+
+
+/*Responsive Desktop*/
+
+
+@media only screen and (min-width: 870px){
+    .header__nav a{
+        text-decoration: none;
+        color: blanchedalmond;
+        font-size: 1.5rem;
+        padding: 3rem;
+    }
+    
+    .header__titulo{
+        padding: 2rem;
+        text-align: center;
+        font-size: 4rem;
+        color: blanchedalmond;
+    }
+    
+    .titulo__equipo{
+        color: blanchedalmond;
+        font-size: 2rem;
+        display: block;
+        text-align: center;
+        padding-top: 1em;
+    }
+
+    .titulo__posicion{
+        color: blanchedalmond;
+        font-size: 1.3rem;
+        display: block;
+        text-align: center;
+        padding: 1em;
+    }
+
+    .contenido__intro{
+        color: antiquewhite;
+        font-size: 1.1rem;
+        padding: 2rem;
+    }
+    
+    #grilla {
+        display: grid;
+        grid-template-areas:
+          "header header header header header"
+          "servicios servicios servicios servicios servicios"
+          "miembro1 miembro2 miembro3 miembro4 miembro5"
+          "footer footer footer footer footer";
+        grid-template-rows: 250px auto auto auto auto auto auto 70px;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-row-gap: 10px;
+     }
+}

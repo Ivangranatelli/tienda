@@ -1,0 +1,65 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    background-color: rgb(68, 62, 62);
+    background: radial-gradient(circle, #000000 0%, #44464a 100%);
+}
+.header{
+    border: blanchedalmond;
+    background-image: url(./imagenes/imagenbuzo.jpg);
+    background-color: black;
+    background-size: cover;
+    background-position: center; 
+}
+.header__titulo{
+    text-align: center;
+    padding: 2rem;
+    font-size: 5rem;
+    color: blanchedalmond;
+}
+.header__nav--principal{
+    padding: 4.5rem;
+}
+.header__nav a{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 1.3rem;
+    padding: 3rem;
+}
+.header__nav li{
+    display: inline-block;}
+    body{
+        font-family: 'Roboto Slab', serif;
+        background-color: rgb(68, 62, 62);
+        padding: 2rem;
+    font-size: 1.2rem;
+    text-align: justify;
+    float:initial
+    }
+    .footer{
+        background-color: blanchedalmond;
+    text-align: center;
+    }
+    .footer a{
+        color: black;
+        font-size: 1rem;
+        clear: both;
+    }
+    h2{
+        color: blanchedalmond;
+    }
+    label{
+        color: beige;
+        margin: 2rem;
+        padding: 2rem;
+    }
+    .producto{
+        margin: 1rem;
+        padding: 1rem;
+    }
+    .contenido{
+        transform: translate(27%);
+    }
+    .header__nav li:hover{
+        transform: scale(1.1);
+    }
+
