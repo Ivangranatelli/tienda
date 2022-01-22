@@ -76,8 +76,8 @@ h2{
 }
 .footer a{
     color: black;
-   font-size: 1rem;
-   clear: both;
+    font-size: 1rem;
+    clear: both;
 }
 .header__nav li:hover{
     transform: scale(1.1);

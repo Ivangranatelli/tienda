@@ -62,4 +62,7 @@ body{
     .header__nav li:hover{
         transform: scale(1.1);
     }
+    img:hover{
+        transform: scale(1.1);
+    }
 
