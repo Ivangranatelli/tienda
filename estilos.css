@@ -174,3 +174,17 @@ iframe:hover{
      }
 }
 /*Bootstrap*/
+.row{
+    padding: 2rem 50px;
+    text-align: center;
+}
+.ig{
+    width: 50px;
+}
+.ig:hover{
+    transform: scale(1.1);
+}
+.color{
+    color: beige;
+    text-align: center;
+}
